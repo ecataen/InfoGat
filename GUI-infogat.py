@@ -213,7 +213,7 @@ def about():
 	tkMessageBox.showinfo("About", "Designed and Developed by Neat. \n| 2017 |\n")
 
 def readme():
-	with open("Readme.txt","r") as f:	#Readme file here...
+	with open("README.md","r") as f:	#Readme file here...
 		text = f.readlines()
 	for line in text:
 		print line
